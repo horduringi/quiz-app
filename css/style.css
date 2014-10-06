@@ -30,8 +30,16 @@ ul > li {
 	padding: 15px;
 	cursor: pointer;
 	border: 1px solid rgba(0,0,0,0);
+	border-radius: 5px;
 }
 ul > li:hover {
-	border: 1px solid white;
-	border-radius: 5px;
+	border: 1px solid white;	
+}
+.incorrect {
+	border-color: transparent !important;
+	background-color: red;
+}
+.correct {
+	border-color: transparent !important;
+	background-color: green;
 }
