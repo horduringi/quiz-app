@@ -17,13 +17,6 @@ function shuffle(array) {
   return array;
 }
 
-function sleep(miliseconds) {
-   	var currentTime = new Date().getTime();
-
-   	while (currentTime + miliseconds >= new Date().getTime()) {
-   	}
-}
-
 $(document).ready(function() {
 	var newQuiz = function() {
 		shuffle(countries);
@@ -69,7 +62,7 @@ $(document).ready(function() {
 			}
 			else
 			{
-				showScore();
+				window.setTimeout(function () { showScore(); }, 2000);
 			}
 		})
 		
