@@ -1,0 +1,45 @@
+html {
+	height: 100%;
+}
+body {
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/4/4d/Whole_world_-_land_and_oceans.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Arial, sans-serif;
+}
+.centered {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	color: white;
+	border: 1px solid rgba(255,255,255,0.2);
+	padding: 30px;
+	background-color: rgba(11,10,50,0.8);
+	border-radius: 10px;
+}
+h2 {
+	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+}
+ul > li {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 15px;
+	cursor: pointer;
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 5px;
+}
+ul > li:hover {
+	border: 1px solid white;	
+}
+.incorrect {
+	border-color: transparent !important;
+	background-color: red;
+}
+.correct {
+	border-color: transparent !important;
+	background-color: green;
+}
